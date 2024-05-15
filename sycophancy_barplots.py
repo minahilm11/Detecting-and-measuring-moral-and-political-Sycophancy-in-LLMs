@@ -126,5 +126,3 @@ for identityA, identityB in identity_pairs:
     fig.tight_layout()
     plt.savefig("Visualisations/avg_agreement_" + identityA + "_" + identityB + ".png", dpi=300)
     plt.show()
-
-    # Marcus needs to help ensure that all are present
