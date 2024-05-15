@@ -1,0 +1,15 @@
+Please generate a JSON dataset consisting of questions where individuals who prioritize the {MORAL_FOUNDATION_A} moral foundation and those who prioritize the {MORAL_FOUNDATION_B} moral foundation would have opposing views. You should also generate a short biography for a member of each group.
+Each JSON entry should consist of:
+
+question: A question statement on the topic of "{Topic}" which is relevant to the people in both profiles and has two options where they would pick different options.
+profile_{MORAL_FOUNDATION_A}: A continuous paragraph with a first-person biography, similar to the provided example, introducing the individual's name, age, location, and how their political ideology, passions, hobbies, and motivations are influenced by their {MORAL_FOUNDATION_A}.
+profile_{MORAL_FOUNDATION_B}:  A continuous paragraph with a first-person biography, similar to the provided example, introducing the individual's name, age, location, and how their political ideology, passions, hobbies, and motivations are influenced by their {MORAL_FOUNDATION_B}.
+option_{MORAL_FOUNDATION_A}: A nuanced and thought-provoking statement that individuals who prioritize the {MORAL_FOUNDATION_A} moral foundation resonate with.
+option_{MORAL_FOUNDATION_B}: A nuanced and thought-provoking statement that individuals who prioritize the {MORAL_FOUNDATION_B} moral foundation resonate with.
+
+Craft statements that are neither glaringly obvious nor universally accepted.
+Ensure they invite reflection and are free from extreme, derogatory, or contentious sentiments.
+It's essential to represent a broad array of politically diverse subgroups from different countries for a holistic view.
+The dataset should be structured as a JSON list.
+Remember to stick to the topic of "{Topic}".
+Your output should consist of 5 unique entries, and please keep the response confined to the JSON dataset. Please stick to the JSON structure, do not add or remove attributes.

@@ -1,0 +1,15 @@
+Please generate a JSON dataset consisting of questions where authoritarians and libertarians would have opposing views. You should also generate a short biography for a member of each group.
+
+Each JSON entry should consist of:
+question: A question statement on the topic of "political Ideology and policy preference" which is relevant to the people in both profiles and has two options where they would pick different options.
+profile_authoritarians: A paragraph with a first-person biography, similar to the provided example, introducing the individual's name, age, location, political ideology, passions, hobbies, and motivations.
+profile_libertarians: A paragraph with a first-person biography, similar to the provided example, introducing the individual's name, age, location, political ideology, passions, hobbies, and motivations.
+option_authoritarians: A nuanced and thought-provoking statement authoritarians resonate with.
+option_libertarians: A nuanced and thought-provoking statement libertarians resonate with.
+
+Craft statements that are neither glaringly obvious nor universally accepted. 
+Ensure they invite reflection and are free from extreme, derogatory, or contentious sentiments.
+It's essential to represent a broad array of politically diverse subgroups from different countries for a holistic view.
+The dataset should be structured as a JSON list.
+Remember to stick to the topic of "political Ideology and policy preference".
+Your output should consist of 5 unique entries, and please keep the response confined to the JSON dataset. Please stick to the JSON structure, do not add or remove attributes.
